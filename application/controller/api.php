@@ -6,6 +6,7 @@
 * @author     Joerg Linge
 * @license    GPL
 */
+#[AllowDynamicProperties]
 class Api_Controller extends System_Controller  {
 
   public function __construct(){

@@ -3,6 +3,8 @@
 ### CURL
 #### Query metrics of a service on a specific host
 ```
+### NOTE: If you are getting errors with adding the PNP data source and testing it we have added the fix to this release.
+
 curl -s -u '<username>:<password>' -H "Content-Type: application/json" -X POST -d '
 {
    "targets":[

@@ -2,7 +2,8 @@
 ## Usage examples
 ### CURL
 ### NOTE: If you are getting errors with adding the PNP data source and testing it we have added the fix to this release.
-#### Query metrics of a service on a specific host
+#### also fixed the problem where the data returned would always be 0. 
+##### Query metrics of a service on a specific host
 ```
 curl -s -u '<username>:<password>' -H "Content-Type: application/json" -X POST -d '
 {
